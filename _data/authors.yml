@@ -1,22 +1,19 @@
-"Your Name":
+"Zihan Wang":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Doina Precup":
+  url: https://cs.mcgill.ca/~dprecup/
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Xiao-Wen Chang":
+  url: https://www.cs.mcgill.ca/~chang/
+
+"Samira Ebrahimi Kahou":
+  url: https://saebrahimi.github.io
+
+"Narges Armanfard":
+  url: https://ismart.ece.mcgill.ca//
 
 "Charles Green (Stanford)":
   name: Charles Green
   url: https://www.google.com/?q=Charles+Green+Stanford
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe

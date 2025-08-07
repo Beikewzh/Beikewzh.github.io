@@ -1,61 +1,80 @@
-primary_name: "Your Name"
+primary_name: "Zihan Wang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Zihan Wang"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/badges/mila_logo.png  # Logo is optional
+  name: Ph.D. Student 
+- logo: /assets/images/badges/continualAI_logo.png  
+  name: Board Member
 
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+email: "zihan.wang@mila.quebec"
+cv_link: https://drive.google.com/file/d/1LE1J9aLq9q_NHFZQbDJPZuenSBZ2J_Xl/view?usp=sharing
+gscholar: iIc-J-oAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: Beikewzh
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: zihan-wang-2919b2261
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a first-year Ph.D. student at McGill University and Mila – Quebec AI Institute, co-advised by Prof. Doina Precup and Prof. Xiao-Wen Chang. My research focuses on continual reinforcement learning, aiming to develop AI systems that can learn and adapt in non-stationary environments. I am also a Board Member of ContinualAI, a nonprofit organization advancing research in continual learning.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Previously, I completed my M.Sc. in Electrical and Computer Engineering at McGill and Mila, under the supervision of Prof. Narges Armanfard and Prof. Samira Ebrahimi Kahou, where I worked on anomaly detection. I also hold a B.Sc. in Electrical and Computer Engineering, with a Minor in Mathematics, from the University of Alberta.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+
+portrait_url: /assets/images/photos/zihan_photo.JPG
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: McGill University && Mila-Quebec AI Institute
+  logo: /assets/images/badges/mila_logo.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    School of Computer Science <br/>
+    Ph.D. Student <br/>
+    Supervisors: Doina Precup, Xiao-Wen Chang
+  date: Sep. 2025 - present
+- name: McGill University && Mila-Quebec AI Institute
+  logo: /assets/images/badges/mcgill_logo.png 
+  position: >- 
+    MSc. in Electrical and Computer Engineering <br/>
+    Supervisors: Narges Armanfard, Samira Ebrahimi Kahou
+  date: Sep. 2023 - Aug. 2025
+- name: University of Alberta
+  logo: /assets/images/badges/ua_logo.png
+  position: >- 
+    BSc. in Electrical and Computer Engineering <br/>
+    Minor in Mathematics
+  date: Sep. 2018 - Jun. 2023
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: ContinualAI
+  logo: /assets/images/badges/continualAI_logo.png
+  position: Board Member
+  date: May 2024 - Present
+- name: Huawei Noah's Ark Lab, Montreal, Canada
+  logo: /assets/images/badges/huawei_logo.png
+  position: Researcher Intern
+  date: Jul. 2024 -- Sep. 2024
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: FRQNT Doctoral Research Scholarship #($100,000)
+  date: 2025–2029
+- name: FRQNT Master’s Research Scholarship #($26,667)
+  date: 2024–2025
+- name: McGill University Graduate Excellence Fellowship #(7,000)
+  date: 2023–2025
+- name: University of Alberta Academic Scholarship (×3) #($14,000)
+  date: 2019–2023
+- name: University of Alberta Dean’s Research Award (×2) #($1,000)
+  date: 2021, 2022
+# - name: Graduated with Distinction, University of Alberta
+#   date: 2023
