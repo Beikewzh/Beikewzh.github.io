@@ -7,7 +7,6 @@ images:
 - src: /assets/images/photos/RANDOM/DSC00683.jpg
   title: Milabo
   desc: 
-  link: https://picsum.photos/
 - src: /assets/images/photos/RANDOM/DJI_0056.jpg
   title: Hometown
   desc: 
