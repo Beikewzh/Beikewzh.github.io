@@ -60,10 +60,10 @@ experience:
   logo: /assets/images/badges/continualAI_logo.png
   position: Board Member
   date: May 2024 - Present
-- name: Huawei Noah's Ark Lab, Montreal, Canada
-  logo: /assets/images/badges/huawei_logo.png
-  position: Researcher Intern
-  date: Jul. 2024 -- Sep. 2024
+# - name: Huawei Noah's Ark Lab, Montreal, Canada
+#   logo: /assets/images/badges/huawei_logo.png
+#   position: Researcher Intern
+#   date: Jul. 2024 -- Sep. 2024
 
 awards:
 - name: FRQNT Doctoral Research Scholarship #($100,000)
