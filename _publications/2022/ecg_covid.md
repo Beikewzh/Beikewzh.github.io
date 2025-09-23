@@ -1,7 +1,7 @@
 ---
 title: "Improving ECG-based COVID-19 Diagnosis and Mortality Predictions Using Pre-pandemic Medical Records at Population-Scale"
 date: 2022-12-02
-selected: true
+selected: false
 status: "published"
 pub: "NeurIPS 2022 Workshop on Learning from Time Series for Health"
 pub_last:
