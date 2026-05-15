@@ -10,7 +10,7 @@ positions:
 
 
 email: "zihan.wang@mila.quebec"
-cv_link: https://drive.google.com/file/d/1LE1J9aLq9q_NHFZQbDJPZuenSBZ2J_Xl/view?usp=sharing
+cv_link: https://drive.google.com/file/d/18p9BZXBrbvPi2bFwC0FyqiYhKBNi-m_c/view?usp=drive_link
 gscholar: iIc-J-oAAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: Beikewzh
 # twitter: your_twitter_id  # Do not include the '@' symbol
@@ -64,10 +64,10 @@ experience:
   logo: /assets/images/badges/continualAI_logo.png
   position: Board Member
   date: May 2024 - Present
-- name: Huawei Noah's Ark Lab, Montreal, Canada
-  logo: /assets/images/badges/huawei_logo.png
-  position: Researcher Intern
-  date: Jul. 2024 -- Sep. 2024
+# - name: Huawei Noah's Ark Lab, Montreal, Canada
+#   logo: /assets/images/badges/huawei_logo.png
+#   position: Researcher Intern
+#   date: Jul. 2024 -- Sep. 2024
 
 awards:
 - name: Flight PS752 Commemorative Scholarship #($25,000)
