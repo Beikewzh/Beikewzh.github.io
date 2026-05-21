@@ -1,4 +1,4 @@
 ---
-title: "Awarded the <strong>UpperBound 2026 Bursary</strong>!"
+title: "Awarded the <strong>UpperBound</strong> 2026 Bursary!"
 date: 2026-05-01 00:01:00 -0400
 ---
