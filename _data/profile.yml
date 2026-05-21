@@ -23,10 +23,13 @@ linkedin: zihan-wang-2919b2261
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a first-year Ph.D. student at McGill University and Mila – Quebec AI Institute, co-advised by Prof. Doina Precup and Prof. Xiao-Wen Chang. My research focuses on continual reinforcement learning, aiming to develop AI systems that can learn and adapt in non-stationary environments. I am also a Board Member of ContinualAI, a nonprofit organization advancing research in continual learning.
+    I am a Ph.D. student at McGill University and Mila – Quebec AI Institute, co-advised by Prof. Doina Precup and Prof. Xiao-Wen Chang. My research focuses on continual reinforcement learning, aiming to develop AI systems that can learn and adapt in non-stationary environments. I am also a Board Member of ContinualAI, a nonprofit organization advancing research in continual learning.
   </p>
   <p>
     Previously, I completed my M.Sc. in Electrical and Computer Engineering at McGill and Mila, under the supervision of Prof. Narges Armanfard and Prof. Samira Ebrahimi Kahou, where I worked on anomaly detection. I also hold a B.Sc. in Electrical and Computer Engineering, with a Minor in Mathematics, from the University of Alberta.
+  </p>
+  <p>
+    I co-organize the <strong>Mila Tea Talk</strong>, a weekly seminar series at Mila. I am also co-organizing the <a href="https://sites.google.com/view/findingtheframe" target="_blank"><strong>Finding the Frame Workshop</strong></a> at <strong>RLC 2026</strong> in Montréal — see you there!
   </p>
 
 
@@ -70,10 +73,14 @@ experience:
 #   date: Jul. 2024 -- Sep. 2024
 
 awards:
+- name: UpperBound Bursary
+  date: 2026
 - name: Flight PS752 Commemorative Scholarship #($25,000)
   date: 2025–2026
 - name: FRQNT Doctoral Research Scholarship #($100,000)
   date: 2025–2029
+- name: GREAT Scholarship
+  date: 2025
 - name: FRQNT Master’s Research Scholarship #($26,667)
   date: 2024–2025
 - name: McGill University Graduate Excellence Fellowship #(7,000)
