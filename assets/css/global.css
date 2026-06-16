@@ -90,3 +90,12 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+
+/* Uniform publication cover thumbnails: show the whole figure (no awkward
+   cropping) inside a consistent box, regardless of the image's aspect ratio. */
+.pub-cover {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: contain;
+    background-color: #fff;
+}
