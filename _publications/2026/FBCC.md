@@ -3,7 +3,7 @@ title: "Unsupervised Continual Clustering via Forward-Backward Knowledge Distill
 date: 2026-09-07
 selected: false
 status: "published"
-pub: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2026)"
+pub: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)"
 pub_last:
 pub_date: "2026"
 abstract: >-

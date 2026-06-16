@@ -3,7 +3,7 @@ title: "GitChameleon 2.0: Evaluating AI Code Generation Against Python Library V
 date: 2026-07-01
 selected: false
 status: "published"
-pub: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+pub: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)"
 
 pub_last:
 pub_date: "2026"

@@ -3,7 +3,7 @@ title: "SIC-Agents: Benchmarking and Building Adaptive Simulator for Pediatric S
 date: 2026-05-25
 selected: true
 status: "submitted"
-pub: "Under review at EMNLP 2026"
+pub: "Under review at EMNLP"
 
 pub_last:
 pub_date: "2026"

@@ -3,7 +3,7 @@ title: "Perceived Regret: Evaluating Agents in Any World"
 date: 2026-06-16
 selected: true
 status: "published"
-pub: "Continual RL Workshop, Reinforcement Learning Conference (RLC 2026)"
+pub: "Continual RL Workshop, Reinforcement Learning Conference (RLC)"
 
 pub_last:
 pub_date: "2026"
