@@ -15,5 +15,5 @@ authors:
 - Zihan Wang
 - Narges Armanfard
 links:
-  Paper: https://arxiv.org/abs/2405.19234
+  Paper: https://arxiv.org/abs/2606.07474
 ---

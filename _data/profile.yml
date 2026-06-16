@@ -59,15 +59,15 @@ experience:
 - name: Mila – Quebec AI Institute / Linarite AI
   logo: /assets/images/badges/mila_logo.png
   position: Scientist in Residence
-  date: Sep 2025 – Dec 2025
+  date: Sep 2025 – Apr 2026
 - name: ContinualAI
   logo: /assets/images/badges/continualAI_logo.png
   position: Board Member
   date: May 2024 - Present
-# - name: Huawei Noah's Ark Lab, Montreal, Canada
-#   logo: /assets/images/badges/huawei_logo.png
-#   position: Researcher Intern
-#   date: Jul. 2024 -- Sep. 2024
+- name: Huawei Noah's Ark Lab, Montreal, Canada
+  logo: /assets/images/badges/huawei_logo.png
+  position: Researcher Intern
+  date: Jul. 2024 – Sep. 2024
 
 awards:
 - name: UpperBound Bursary
