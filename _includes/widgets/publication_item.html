@@ -3,9 +3,6 @@
     <h3 class="pub-title">{{ item.title }}</h3>
     <p class="pub-authors">{% include widgets/author_list.html authors=item.authors %}</p>
     <p class="pub-venue">{{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
-    {% if item.abstract %}
-    <p class="pub-abstract">{{ item.abstract }}</p>
-    {% endif %}
     {% if item.links %}
     <p class="pub-links">
         {% for link in item.links %}
