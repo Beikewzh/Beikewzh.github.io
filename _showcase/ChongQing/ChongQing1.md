@@ -4,6 +4,7 @@ width: 3
 date: 2020-01-12 00:01:00 +0800
 group: ChongQing
 title: ChongQing 1
+image: /assets/images/photos/ChongQing/DSC04013.jpg
 ---
 <div>
 <a href="/assets/images/photos/ChongQing/DSC04013.jpg" target="_blank">

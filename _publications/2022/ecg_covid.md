@@ -6,9 +6,9 @@ status: "published"
 pub: "NeurIPS 2022 Workshop on Learning from Time Series for Health"
 pub_last:
 pub_date: "2022"
+venue_tag: "NeurIPS"
 abstract: >-
   We show that pre-training deep learning models on pre-pandemic health records and fine-tuning them with limited pandemic data can substantially improve ECG-based COVID-19 diagnosis and prognosis. This transfer learning approach demonstrates notable gains across three prediction tasks, highlighting its potential for rapid AI deployment in future outbreaks.
-cover: /assets/images/covers/ecg_covid_cover.png
 authors:
 - Weijie Sun
 - Sunil Vasu Kalmady

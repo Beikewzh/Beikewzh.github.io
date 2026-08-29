@@ -4,6 +4,7 @@ width: 3
 date: 2020-01-20 00:01:00 +0800
 group: ChongQing
 title: ChongQing 9
+image: /assets/images/photos/ChongQing/DSC03985.jpg
 ---
 <div>
 <a href="/assets/images/photos/ChongQing/DSC03985.jpg" target="_blank">

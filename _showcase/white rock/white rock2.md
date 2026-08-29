@@ -4,6 +4,7 @@ width: 3
 date: 1999-01-13 00:01:00 +0800
 group: White rock
 title: white rock 2
+image: /assets/images/photos/white rock/DSC07973.jpg
 ---
 <div>
 <a href="/assets/images/photos/white rock/DSC07973.jpg" target="_blank">

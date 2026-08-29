@@ -453,18 +453,36 @@ button { font-family: inherit; }
     padding: 3px;
 }
 
-.pub-cover-placeholder {
+/* Typographic venue tile: consistent thumbnails without paper screenshots. */
+.pub-tile {
     width: 100%;
     aspect-ratio: 3 / 2;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 0.1rem;
+    padding: 0.7rem 0.8rem;
     background: var(--line-soft);
     border-radius: var(--radius);
+    border-top: 3px solid var(--accent);
+}
+
+.pub-tile-venue {
     font-family: var(--display);
-    font-size: 1.7rem;
+    font-size: 0.98rem;
     font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    color: var(--body);
+}
+
+.pub-tile-year {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     color: var(--faint);
+    font-variant-numeric: tabular-nums;
 }
 
 .pub-title {
@@ -538,43 +556,16 @@ button { font-family: inherit; }
 }
 
 /* --------------------------------------------------------------------------
-   Showcase support: minimal grid + utilities used by legacy item markup
+   Utilities used by legacy showcase item bodies (fallback content)
    -------------------------------------------------------------------------- */
-
-.row { display: block; }
-.row.grid { position: relative; }
-
-/* Clearfix so group headings never wrap beside floated grid items. */
-.row.grid::after { content: ""; display: table; clear: both; }
-
-.grid-item { float: left; }
-
-.col-1 { width: 8.3333%; } .col-2 { width: 16.6667%; } .col-3 { width: 25%; }
-.col-4 { width: 33.3333%; } .col-6 { width: 50%; } .col-8 { width: 66.6667%; }
-.col-12 { width: 100%; }
-
-@media (min-width: 576px) {
-    .col-sm-1 { width: 8.3333%; } .col-sm-2 { width: 16.6667%; } .col-sm-3 { width: 25%; }
-    .col-sm-4 { width: 33.3333%; } .col-sm-6 { width: 50%; } .col-sm-8 { width: 66.6667%; }
-    .col-sm-12 { width: 100%; }
-}
-
-@media (min-width: 768px) {
-    .col-md-1 { width: 8.3333%; } .col-md-2 { width: 16.6667%; } .col-md-3 { width: 25%; }
-    .col-md-4 { width: 33.3333%; } .col-md-6 { width: 50%; } .col-md-8 { width: 66.6667%; }
-    .col-md-12 { width: 100%; }
-}
 
 .w-100 { width: 100%; }
 .img-fluid { max-width: 100%; height: auto; }
 .p-2 { padding: 0.4rem; }
 .p-4 { padding: 1.5rem; }
 .rounded-xl { border-radius: var(--radius); }
-
-/* Legacy card wrappers around showcase photos render flat and frameless. */
 .card { background: transparent; border: 0; }
 
-/* Lazy-loaded elements (vanilla loader in common.js swaps in data-src). */
 div.lazy {
     background-color: var(--line-soft);
     background-repeat: no-repeat;
@@ -584,16 +575,6 @@ div.lazy {
 
 img.lazy { background-color: var(--line-soft); min-height: 80px; }
 img.lazy.loaded { background-color: transparent; min-height: 0; }
-
-/* Smooth reveal when a lazy tile's image arrives. */
-@media (prefers-reduced-motion: no-preference) {
-    .lazy.loaded { animation: tile-in 0.5s ease both; }
-}
-
-@keyframes tile-in {
-    from { opacity: 0.25; }
-    to { opacity: 1; }
-}
 
 /* --------------------------------------------------------------------------
    Carousel replacement: CSS scroll-snap strip

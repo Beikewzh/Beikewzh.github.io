@@ -1,7 +1,7 @@
 <div class="snap-strip" id="{{ include.id | slugify }}" style="height: {{ include.height }};">
     {% for item in include.images %}
     {% if item.link %}<a class="snap-slide" href="{{ item.link }}" target="_blank" style="height: {{ include.height }};">{% else %}<div class="snap-slide" style="height: {{ include.height }};">{% endif %}
-        <div class="lazy always-load w-100 rounded-xl" data-src="{{ item.src | relative_url }}" style="height: 100%;"></div>
+        <img src="{{ item.src | relative_url }}" alt="{{ item.title }}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); display: block;">
     {% if item.link %}</a>{% else %}</div>{% endif %}
     {% endfor %}
 </div>

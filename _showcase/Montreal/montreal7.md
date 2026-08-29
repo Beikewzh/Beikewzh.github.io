@@ -4,6 +4,7 @@ width: 3
 date: 2021-01-18 00:01:00 +0800
 group: Montreal
 title: montreal 7
+image: /assets/images/photos/montreal/20230223-DSC08928.jpg
 ---
 <div>
 <a href="/assets/images/photos/montreal/20230223-DSC08928.jpg" target="_blank">

@@ -4,6 +4,7 @@ width: 3
 date: 2021-01-29 00:01:00 +0800
 group: Montreal
 title: montreal 18
+image: /assets/images/photos/montreal/DSC00432.jpg
 ---
 <div>
 <a href="/assets/images/photos/montreal/DSC00432.jpg" target="_blank">

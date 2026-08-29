@@ -4,6 +4,7 @@ width: 3
 date: 2050-01-22 00:01:00 +0800
 group: Nature
 title: nature 11
+image: /assets/images/photos/nature/DSC03333.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC03333.jpg" target="_blank">

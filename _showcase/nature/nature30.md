@@ -4,6 +4,7 @@ width: 3
 date: 2050-02-10 00:01:00 +0800
 group: Nature
 title: nature 30
+image: /assets/images/photos/nature/DSC06883.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC06883.jpg" target="_blank">

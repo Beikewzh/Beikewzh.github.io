@@ -4,6 +4,7 @@ width: 3
 date: 2060-01-19 00:01:00 +0800
 group: Night sky
 title: night sky 8
+image: /assets/images/photos/night sky/DSC07598.jpg
 ---
 <div>
 <a href="/assets/images/photos/night sky/DSC07598.jpg" target="_blank">

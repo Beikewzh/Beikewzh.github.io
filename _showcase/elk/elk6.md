@@ -4,6 +4,7 @@ width: 3
 date: 2061-09-17 00:01:00 +0800
 group: Elk
 title: elk 6
+image: /assets/images/photos/elk/DSC07572.jpg
 ---
 <div>
 <a href="/assets/images/photos/elk/DSC07572.jpg" target="_blank">

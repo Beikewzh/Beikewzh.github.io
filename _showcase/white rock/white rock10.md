@@ -4,6 +4,7 @@ width: 3
 date: 1999-01-21 00:01:00 +0800
 group: White rock
 title: white rock 10
+image: /assets/images/photos/white rock/DSC08018.jpg
 ---
 <div>
 <a href="/assets/images/photos/white rock/DSC08018.jpg" target="_blank">

@@ -3,7 +3,6 @@ layout: default
 title : Showcase
 navbar_title: Showcase
 wide: true
-needs_masonry: true
 ---
 
 {% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
@@ -16,13 +15,13 @@ needs_masonry: true
     some of my favorite shots. Enjoy.
 </p>
 
-<!-- Floating "Jump to" navigation -->
+<!-- Jump-to navigation: plain anchors, no scrollspy -->
 <button id="sidebarToggle" class="sidebar-toggle" aria-label="Open section list">&#9776;</button>
 <nav class="floating-sidebar" id="floatingSidebar" aria-label="Showcase sections">
     <span class="overline">Jump to</span>
     <ul>
         {% for group in cards_by_group %}
-        <li><a href="#group-{{ forloop.index }}" class="spy-link">{{ group.name }}</a></li>
+        <li><a href="#group-{{ group.name | slugify }}">{{ group.name }}</a></li>
         {% endfor %}
     </ul>
 </nav>
@@ -30,44 +29,34 @@ needs_masonry: true
 <button id="backToTopBtn" aria-label="Back to top">&uarr;</button>
 
 {% for group in cards_by_group %}
-<h2 id="group-{{ forloop.index }}" class="spy-target">{{ group.name }} <span class="group-count">{{ group.items | size }}</span></h2>
-<div class="row grid mb-4">
-    <div class="grid-sizer col-1"></div>
-    {% for item in group.items %}
-    {% if item.width >= 6 -%}
-        {%- assign width_sm = 12 -%}
-        {%- assign width_xs = 12 -%}
-    {%- elsif item.width >= 2 -%}
-        {%- assign width_sm = 6 -%}
-        {%- assign width_xs = 6 -%}
-    {%- else -%}
-        {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
-        {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
-    {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
-        <div class="{% if item.class != null %}{{ item.class }}{% else %}card{% endif %}">
+<section class="gallery-group">
+    <h2 id="group-{{ group.name | slugify }}" class="gallery-title">{{ group.name }} <span class="group-count">{{ group.items | size }}</span></h2>
+    <div class="masonry">
+        {% for item in group.items %}
+        {% if item.image %}
+        <figure class="masonry-item">
+            <a href="{{ item.image | relative_url }}" target="_blank">
+                <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: group.name }}" loading="lazy">
+            </a>
+        </figure>
+        {% else %}
+        <div class="masonry-item{% if item.width >= 6 %} masonry-wide{% endif %}">
             {{ item.content }}
         </div>
+        {% endif %}
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
+</section>
 {% endfor %}
 
 <style>
-.spy-target {
+.gallery-group { margin: 3.5rem 0; }
+
+.gallery-title {
     font-size: 1.35rem;
-    margin: 3.5rem 0 0.5rem;
-    opacity: 0;
-    transform: translateY(14px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    margin-bottom: 0.9rem;
 }
-.spy-target.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-@media (prefers-reduced-motion: reduce) {
-    .spy-target { opacity: 1; transform: none; }
-}
+
 .group-count {
     font-family: var(--sans);
     font-size: 0.72rem;
@@ -78,6 +67,34 @@ needs_masonry: true
     margin-left: 0.2rem;
 }
 
+/* Native masonry: CSS multi-columns, zero JS */
+.masonry {
+    columns: 15rem;
+    column-gap: 0.75rem;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    margin: 0 0 0.75rem;
+}
+
+.masonry-wide { column-span: all; }
+
+.masonry-item img {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius);
+    background: var(--line-soft);
+    min-height: 6rem;
+    transition: opacity 0.3s ease;
+}
+
+.masonry-item a { display: block; line-height: 0; }
+
+@media (hover: hover) {
+    .masonry-item a:hover img { opacity: 0.92; }
+}
+
 .floating-sidebar {
     position: fixed;
     top: 7.5rem;
@@ -86,17 +103,13 @@ needs_masonry: true
     background: color-mix(in srgb, var(--bg) 92%, transparent);
     backdrop-filter: blur(4px);
     border: 1px solid var(--line);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius);
     font-size: 0.8rem;
     padding: 0.9rem 1rem;
     z-index: 1000;
 }
 .floating-sidebar .overline { display: block; margin-bottom: 0.5rem; }
-.floating-sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+.floating-sidebar ul { list-style: none; padding: 0; margin: 0; }
 .floating-sidebar li { margin-bottom: 0.35rem; }
 .floating-sidebar a {
     color: var(--muted);
@@ -104,7 +117,6 @@ needs_masonry: true
     font-weight: 500;
 }
 .floating-sidebar a:hover { color: var(--ink); }
-.floating-sidebar a.active { color: var(--accent-ink); }
 
 .sidebar-toggle {
     display: none;
@@ -135,9 +147,11 @@ needs_masonry: true
     height: 2.5rem;
     font-size: 1rem;
     cursor: pointer;
-    transform: scale(0);
-    transition: transform 0.25s ease, border-color 0.25s ease;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, border-color 0.25s ease;
 }
+#backToTopBtn.shown { opacity: 1; pointer-events: auto; }
 #backToTopBtn:hover { border-color: var(--muted); }
 
 @media (max-width: 1250px) {
@@ -154,41 +168,21 @@ needs_masonry: true
 </style>
 
 <script>
-document.querySelectorAll('.floating-sidebar a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
-        document.getElementById("floatingSidebar").classList.remove("open");
+(function () {
+    var sidebar = document.getElementById("floatingSidebar");
+    document.getElementById("sidebarToggle").addEventListener("click", function () {
+        sidebar.classList.toggle("open");
     });
-});
-
-const backToTopBtn = document.getElementById("backToTopBtn");
-backToTopBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-
-const sections = document.querySelectorAll(".spy-target");
-const navLinks = document.querySelectorAll(".spy-link");
-
-window.addEventListener("scroll", () => {
-    backToTopBtn.style.transform = window.scrollY > 300 ? "scale(1)" : "scale(0)";
-    const scrollPos = window.scrollY + 120;
-    sections.forEach((section, i) => {
-        const start = section.offsetTop;
-        const end = i + 1 < sections.length ? sections[i + 1].offsetTop : document.body.scrollHeight;
-        if (scrollPos >= start && scrollPos < end) {
-            navLinks.forEach(link => link.classList.remove("active"));
-            navLinks[i].classList.add("active");
-        }
+    sidebar.addEventListener("click", function (e) {
+        if (e.target.tagName === "A") sidebar.classList.remove("open");
     });
-}, { passive: true });
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add("visible");
+    var toTop = document.getElementById("backToTopBtn");
+    toTop.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
     });
-}, { threshold: 0.2 });
-sections.forEach(el => observer.observe(el));
-
-document.getElementById("sidebarToggle").addEventListener("click", () => {
-    document.getElementById("floatingSidebar").classList.toggle("open");
-});
+    window.addEventListener("scroll", function () {
+        toTop.classList.toggle("shown", window.scrollY > 400);
+    }, { passive: true });
+})();
 </script>

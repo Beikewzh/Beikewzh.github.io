@@ -4,6 +4,7 @@ width: 3
 date: 2059-01-12 00:01:00 +0800
 group: Sky
 title: sky 1
+image: /assets/images/photos/sky/20230211-DSC08726.jpg
 ---
 <div>
 <a href="/assets/images/photos/sky/20230211-DSC08726.jpg" target="_blank">

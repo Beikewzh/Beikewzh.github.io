@@ -4,6 +4,7 @@ width: 3
 date: 2059-01-17 00:01:00 +0800
 group: Sky
 title: sky 6
+image: /assets/images/photos/sky/DSC07451.jpg
 ---
 <div>
 <a href="/assets/images/photos/sky/DSC07451.jpg" target="_blank">

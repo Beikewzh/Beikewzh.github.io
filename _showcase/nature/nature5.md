@@ -4,6 +4,7 @@ width: 3
 date: 2050-01-16 00:01:00 +0800
 group: Nature
 title: nature 5
+image: /assets/images/photos/nature/DSC03061.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC03061.jpg" target="_blank">

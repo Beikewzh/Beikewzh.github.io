@@ -4,6 +4,7 @@ width: 3
 date: 2050-01-12 00:01:00 +0800
 group: Nature
 title: nature 1
+image: /assets/images/photos/nature/DSC01407.JPG
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC01407.JPG" target="_blank">

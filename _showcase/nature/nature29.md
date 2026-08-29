@@ -4,6 +4,7 @@ width: 3
 date: 2050-02-09 00:01:00 +0800
 group: Nature
 title: nature 29
+image: /assets/images/photos/nature/DSC06882.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC06882.jpg" target="_blank">

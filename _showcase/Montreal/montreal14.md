@@ -4,6 +4,7 @@ width: 3
 date: 2021-01-25 00:01:00 +0800
 group: Montreal
 title: montreal 14
+image: /assets/images/photos/montreal/DSC00309.jpg
 ---
 <div>
 <a href="/assets/images/photos/montreal/DSC00309.jpg" target="_blank">

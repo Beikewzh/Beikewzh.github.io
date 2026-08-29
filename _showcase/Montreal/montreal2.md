@@ -4,6 +4,7 @@ width: 3
 date: 2021-01-13 00:01:00 +0800
 group: Montreal
 title: montreal 2
+image: /assets/images/photos/montreal/20230222-DSC08803.jpg
 ---
 <div>
 <a href="/assets/images/photos/montreal/20230222-DSC08803.jpg" target="_blank">

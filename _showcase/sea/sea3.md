@@ -4,6 +4,7 @@ width: 3
 date: 2059-09-14 00:01:00 +0800
 group: Sea
 title: sea 3
+image: /assets/images/photos/sea/DSC04795.jpg
 ---
 <div>
 <a href="/assets/images/photos/sea/DSC04795.jpg" target="_blank">

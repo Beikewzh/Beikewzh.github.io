@@ -7,10 +7,10 @@ pub: "Proceedings of the 64th Annual Meeting of the Association for Computationa
 
 pub_last:
 pub_date: "2026"
+venue_tag: "ACL"
 
 abstract: >-
   We present GitChameleon 2.0, a dataset of 328 Python code completion problems conditioned on specific library versions, each paired with executable unit tests for rigorous, execution-based evaluation. Our analysis reveals that state-of-the-art LLMs and code assistants struggle with version-conditioned code generation, achieving only 48–51% success rates. GitChameleon 2.0 provides a challenging benchmark to spur advances in adaptable and robust AI code generation.
-cover: /assets/images/covers/gitChameleon_cover.png
 authors:
 - Diganta Misra*
 - Nizar Islah*

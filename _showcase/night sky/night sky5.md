@@ -4,6 +4,7 @@ width: 3
 date: 2060-01-16 00:01:00 +0800
 group: Night sky
 title: night sky 5
+image: /assets/images/photos/night sky/DSC07526.jpg
 ---
 <div>
 <a href="/assets/images/photos/night sky/DSC07526.jpg" target="_blank">

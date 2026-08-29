@@ -4,6 +4,7 @@ width: 3
 date: 2000-01-14 00:01:00 +0800
 group: Montreal event
 title: montreal event 3
+image: /assets/images/photos/montreal event/20230827-DSC09747.jpg
 ---
 <div>
 <a href="/assets/images/photos/montreal event/20230827-DSC09747.jpg" target="_blank">

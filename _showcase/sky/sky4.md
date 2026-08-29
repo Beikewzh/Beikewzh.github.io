@@ -4,6 +4,7 @@ width: 3
 date: 2059-01-15 00:01:00 +0800
 group: Sky
 title: sky 4
+image: /assets/images/photos/sky/DSC00600.jpg
 ---
 <div>
 <a href="/assets/images/photos/sky/DSC00600.jpg" target="_blank">

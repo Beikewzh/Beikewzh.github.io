@@ -4,6 +4,7 @@ width: 3
 date: 2050-02-15 00:01:00 +0800
 group: Nature
 title: nature 35
+image: /assets/images/photos/nature/DSC06921.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC06921.jpg" target="_blank">

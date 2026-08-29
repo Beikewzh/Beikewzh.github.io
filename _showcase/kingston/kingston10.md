@@ -4,6 +4,7 @@ width: 3
 date: 2021-09-21 00:01:00 +0800
 group: Kingston
 title: kingston 10
+image: /assets/images/photos/kingston/20231218-DSC00052.jpg
 ---
 <div>
 <a href="/assets/images/photos/kingston/20231218-DSC00052.jpg" target="_blank">

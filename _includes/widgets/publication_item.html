@@ -4,7 +4,10 @@
         {%- if item.cover -%}
         <img src="{{ item.cover | relative_url }}" alt="" class="pub-cover" loading="lazy">
         {%- else -%}
-        <div class="pub-cover-placeholder" aria-hidden="true">{{ item.title | slice: 0, 1 }}</div>
+        <div class="pub-tile" aria-hidden="true">
+            <span class="pub-tile-venue">{{ item.venue_tag | default: item.title | slice: 0, 24 }}</span>
+            <span class="pub-tile-year">{{ item.pub_date }}</span>
+        </div>
         {%- endif -%}
     </div>
     <div class="pub-body">

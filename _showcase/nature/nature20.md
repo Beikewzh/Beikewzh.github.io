@@ -4,6 +4,7 @@ width: 3
 date: 2050-01-31 00:01:00 +0800
 group: Nature
 title: nature 20
+image: /assets/images/photos/nature/DSC06789.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC06789.jpg" target="_blank">

@@ -4,6 +4,7 @@ width: 3
 date: 2059-01-20 00:01:00 +0800
 group: Sky
 title: sky 9
+image: /assets/images/photos/sky/solar_eclipse.jpg
 ---
 <div>
 <a href="/assets/images/photos/sky/solar_eclipse.jpg" target="_blank">

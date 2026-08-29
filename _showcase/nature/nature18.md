@@ -4,6 +4,7 @@ width: 3
 date: 2050-01-29 00:01:00 +0800
 group: Nature
 title: nature 18
+image: /assets/images/photos/nature/DSC04496.jpg
 ---
 <div>
 <a href="/assets/images/photos/nature/DSC04496.jpg" target="_blank">
