@@ -434,59 +434,15 @@ button { font-family: inherit; }
 }
 
 .pub-item {
-    display: grid;
-    grid-template-columns: 8.5rem minmax(0, 1fr);
-    gap: 1.5rem;
+    max-width: 44rem;
     padding: 1.5rem 0;
     border-bottom: 1px solid var(--line-soft);
 }
 
 .pub-item:last-child { border-bottom: 0; }
 
-.pub-cover {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: contain;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 3px;
-}
-
-/* Typographic venue tile: consistent thumbnails without paper screenshots. */
-.pub-tile {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    gap: 0.1rem;
-    padding: 0.7rem 0.8rem;
-    background: var(--line-soft);
-    border-radius: var(--radius);
-    border-top: 3px solid var(--accent);
-}
-
-.pub-tile-venue {
-    font-family: var(--display);
-    font-size: 0.98rem;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    line-height: 1.1;
-    color: var(--body);
-}
-
-.pub-tile-year {
-    font-size: 0.68rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    color: var(--faint);
-    font-variant-numeric: tabular-nums;
-}
-
 .pub-title {
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     letter-spacing: -0.01em;
     line-height: 1.35;
@@ -550,10 +506,6 @@ button { font-family: inherit; }
     white-space: nowrap;
 }
 
-@media (max-width: 560px) {
-    .pub-item { grid-template-columns: 1fr; gap: 0.9rem; }
-    .pub-cover, .pub-cover-placeholder { max-width: 11rem; }
-}
 
 /* --------------------------------------------------------------------------
    Utilities used by legacy showcase item bodies (fallback content)
