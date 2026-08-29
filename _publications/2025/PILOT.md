@@ -5,7 +5,7 @@ selected: true
 status: "published"
 pub: "Proceedings of the British Machine Vision Conference (BMVC)"
 
-pub_last: '<span class="badge badge-pill badge-publication badge-success">Oral</span>'
+pub_last: '<span class="pub-badge">Oral</span>'
 pub_date: "2025"
 
 abstract: >-

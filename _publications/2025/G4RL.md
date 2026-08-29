@@ -17,5 +17,4 @@ authors:
 - Xiao-Wen Chang
 - Doina Precup
 links:
-  Paper: 
 ---

@@ -1,11 +1,11 @@
 ---
 title: "SIC-Agents: Benchmarking and Building Adaptive Simulator for Pediatric Serious Illness Communication Training"
-date: 2026-05-25
+date: 2026-08-28
 selected: true
-status: "submitted"
-pub: "Under review at EMNLP"
+status: "published"
+pub: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 
-pub_last:
+pub_last: '<span class="pub-badge">Main Conference</span>'
 pub_date: "2026"
 
 abstract: >-
