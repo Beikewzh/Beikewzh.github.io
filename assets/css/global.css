@@ -477,19 +477,23 @@ button { font-family: inherit; }
 .pub-links a::after { content: " \2197"; font-size: 0.7em; }
 .pub-links a:hover { text-decoration: underline; }
 
+/* Badges sit inside the venue line: sized to its x-height, baseline-raised
+   so the box centers optically on the text without stretching the line. */
 .pub-badge,
 .badge {
     display: inline-block;
-    font-size: 0.68rem;
+    font-size: 0.62rem;
+    line-height: 1.45;
     font-weight: 600;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
     color: var(--bg);
     background: var(--accent);
     border-radius: 3px;
-    padding: 0.14rem 0.5rem;
-    margin-left: 0.4rem;
-    vertical-align: 0.08em;
+    padding: 0.05em 0.55em;
+    margin-left: 0.3rem;
+    vertical-align: 0.14em;
+    white-space: nowrap;
 }
 
 .authors-note {
