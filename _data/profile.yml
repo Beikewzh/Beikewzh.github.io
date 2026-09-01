@@ -37,10 +37,9 @@ portrait_caption: >-
 education:
 - name: McGill University & Mila – Quebec AI Institute
   logo: /assets/images/badges/mila_logo.png
-  position: >- 
+  position: >-
     School of Computer Science <br/>
-    Ph.D. Student <br/>
-    Supervisors: Doina Precup, Xiao-Wen Chang
+    Ph.D. Student
   date: 2025 —
 - name: McGill University & Mila – Quebec AI Institute
   logo: /assets/images/badges/mcgill_logo.png 
