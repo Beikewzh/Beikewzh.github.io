@@ -1,5 +1,5 @@
 ---
-title: "SIC-Agents: Benchmarking and Building Adaptive Simulator for Pediatric Serious Illness Communication Training"
+title: "SIC-Agents: Benchmarking and Building an Adaptive Simulator for Pediatric Serious Illness Communication Training"
 date: 2026-08-28
 selected: true
 status: "published"
@@ -26,4 +26,5 @@ authors:
 - Akshatha Arodi
 - Naomi Goloff
 links:
+  arXiv: https://arxiv.org/abs/2608.29481
 ---
