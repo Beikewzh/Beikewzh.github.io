@@ -193,11 +193,6 @@ button { font-family: inherit; }
     vertical-align: -0.1em;
     margin-right: 0.4rem;
 }
-.mini-title img.wordmark {
-    height: 0.95em;
-    vertical-align: -0.08em;
-    margin-right: 0;
-}
 
 .mini-detail {
     font-size: 0.79rem;
