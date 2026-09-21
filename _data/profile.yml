@@ -54,6 +54,12 @@ education:
   date: 2018 – 2023
 
 experience:
+- name: ServiceNow, Montreal, Canada
+  wordmark: /assets/images/badges/servicenow_logo.svg
+  wordmark_alt: ServiceNow
+  name_suffix: ", Montreal, Canada"
+  position: Visiting Researcher
+  date: 2026 – 2027
 - name: Mila – Quebec AI Institute / Linarite AI
   logo: /assets/images/badges/mila_logo.png
   position: Scientist in Residence

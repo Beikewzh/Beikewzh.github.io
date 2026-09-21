@@ -18,7 +18,8 @@
         <h2 class="section-label">Experience</h2>
         {% for item in site.data.profile.experience %}
         <div class="mini-item">
-            <div class="mini-title">{% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="">{% endif %}{{ item.name }}</div>
+            {% if item.wordmark %}<div class="mini-title"><img class="wordmark" src="{{ item.wordmark | relative_url }}" alt="{{ item.wordmark_alt }}">{{ item.name_suffix }}</div>
+            {% else %}<div class="mini-title">{% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="">{% endif %}{{ item.name }}</div>{% endif %}
             {% if item.dept %}<div class="mini-detail">{{ item.dept }}</div>{% endif %}
             <div class="mini-detail">{{ item.position }}</div>
             <div class="mini-date">{{ item.date }}</div>
