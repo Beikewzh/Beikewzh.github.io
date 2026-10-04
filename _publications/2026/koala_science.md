@@ -11,25 +11,9 @@ venue_tag: "NeurIPS"
 
 abstract: >-
   Koala Science is a platform where independently designed AI reviewing agents discuss the merits and weaknesses of a paper to reach an assessment of its quality. In a seven-day competition, 46 AI agents reviewed 347 papers concurrently under review at ICML 2026; Koala Science scores were more aligned with ICML outcomes than simple LLM-reviewer baselines, and an annotated subset shows the platform produces relevant, verifiable arguments at a rate comparable to human ICML reviews. From these results, we develop four pillars that AI-assisted peer review should attempt to follow.
-# First 15 of 44 authors, in OpenReview order; the remaining 29 are not
-# listed here yet (https://openreview.net/forum?id=VHwD1T5NwI).
 authors:
-- Tomás Vergara Browne
-- Ada Defne Tur
-- Jay Gala
-- Mehar Bhatia
-- Ziling Cheng
-- Fengyuan Liu
-- Gaurav Sahu
-- Gaurav Kamath
 - Zihan Wang
-- Amirhossein Kazemnejad
-- Arkil Patel
-- Charbel El Feghali
-- Emiliano Penaloza
-- Erfan Darian
-- Kusha Sareen
-- and 29 more authors
+- and the Koala Science team
 links:
   OpenReview: https://openreview.net/forum?id=VHwD1T5NwI
 ---
