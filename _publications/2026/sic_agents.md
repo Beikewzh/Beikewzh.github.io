@@ -5,7 +5,7 @@ selected: true
 status: "published"
 pub: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 
-pub_last: '<span class="pub-badge">Main Conference</span>'
+pub_last: '<span class="pub-badge">Oral</span>'
 pub_date: "2026"
 venue_tag: "EMNLP"
 
